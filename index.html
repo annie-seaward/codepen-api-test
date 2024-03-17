@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodePen API Test</title>
+  </head>
+  <body>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input
+        type="hidden"
+        name="data"
+        value='{"title": "New CSS Pixel Art!", "html": "<div></div>", "css": "div {
+            height: 50px;
+            width: 50px;
+            box-shadow: 
+              50px 50px red, 
+              100px 50px red, 
+              150px 100px red, 
+              200px 50px red, 
+              250px 50px red,
+              300px 100px red,
+              300px 150px red,
+              250px 200px red,
+              200px 250px red,
+              150px 300px red,
+              100px 250px red,
+              50px 200px red,
+              0px 150px red,
+              0px 100px red;
+          }"}'
+      />
+      <input type="submit" value="Create New Pen with Prefilled Data" />
+    </form>
+  </body>
+</html>
